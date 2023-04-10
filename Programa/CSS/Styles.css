@@ -1,0 +1,77 @@
+/*ESTILOS GENERALES*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pacman{
+    width: 80px;
+    height: 80px;
+    background-image: url('../IMG/PACMAN.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 50px;
+    left: calc(50vw - 40px);
+}
+
+body{
+    background-image: url('../IMG/FARM.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.bala{
+    width: 10px;
+    height: 50px;
+    background-color: rgb(255, 38, 0);
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px 10px rgb(255, 38, 0);
+    position: absolute;
+}
+
+.mazorca1{
+    width: 80px;
+    height: 50px;
+    background-image: url('../IMG/MAIZ_AMARILLO.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+}
+
+.mazorca2{
+    width: 80px;
+    height: 50px;
+    background-image: url('../IMG/MAIZ_BLANCO.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+}
+
+.mazorca3{
+    width: 80px;
+    height: 50px;
+    background-image: url('../IMG/MAIZ_NEGRO.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+}
+
+#vidas{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 2em;
+    color:black;
+}
+
+i{
+    color: red;
+}
