@@ -47,7 +47,7 @@ body{
 .mazorca2{
     width: 80px;
     height: 50px;
-    background-image: url('../IMG/MAIZ_BLANCO.jpg');
+    background-image: url('../IMG/MAIZ_BLANCO.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -57,7 +57,7 @@ body{
 .mazorca3{
     width: 80px;
     height: 50px;
-    background-image: url('../IMG/MAIZ_NEGRO.jpg');
+    background-image: url('../IMG/MAIZ_NEGRO.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -74,4 +74,24 @@ body{
 
 i{
     color: red;
+}
+
+#time{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    font-size: 2em;
+    color: black;
+}
+
+#points{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    color: black;
+}
+
+#hide{
+    display: none;
 }
